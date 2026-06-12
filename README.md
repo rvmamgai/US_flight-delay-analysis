@@ -14,23 +14,20 @@ from 2015 to identify delay patterns, cancellation trends, and airline/airport p
 - **Dataset:** [US Flight Delays 2015 - Kaggle](https://www.kaggle.com/datasets/usdot/flight-delays)
 
 ## 📊 Dashboard Preview
-![Overview Page]()
+
 ### Overview
-![Overview](report/Screenshot (371).png)
+![Overview](report/Screenshot(371).png)
 
 ### Airline Performance  
-![Airline](report/Screenshot (372).png)
+![Airline](report/Screenshot(372).png)
 
 ### Airport Performance
-![Airport](report/Screenshot (373).png)
+![Airport](report/Screenshot(373).png)
 
 ### Misc & Summary
-![Misc & Summary](report/Screenshot (374).png)
+![Misc & Summary](report/Screenshot(374).png)
 
-### Key Findings
-![Key Findings](report/Screenshot (375).png)
-!(US_flight-delay-analysis/report
-/Screenshot (371).png)
+
 
 ## 🔑 Key Findings
 - **5.82M flights** analyzed with **82.41% On-Time Performance (OTP)**
@@ -39,6 +36,9 @@ from 2015 to identify delay patterns, cancellation trends, and airline/airport p
 - **Hawaiian Airlines** has best OTP at **89.50%**; Spirit Airlines worst at **72%**
 - **Chicago O'Hare** has highest avg departure delay at **14.1 minutes**
 - **Night flights (18-20h)** have 5x more delays than early morning flights
+  
+![Key Findings](report/Screenshot(375).png)
+
 
 ## 📁 Repository Structure
 ├── README.md
@@ -84,7 +84,7 @@ from 2015 to identify delay patterns, cancellation trends, and airline/airport p
 | Overview | KPI cards, cancellation reasons, delay breakdown |
 | Airline Performance | OTP, delays, cancellations by airline |
 | Airport Performance | Map, busiest/most delayed airports |
-| Temporal Trends | Monthly, daily, hourly patterns |
+| Misc & Summary | Monthly, daily, hourly patterns |
 
 ## 💡 Recommendations
 1. **Airlines** — Reduce late aircraft turnaround at hub airports to cut 39.84% cascade delays
